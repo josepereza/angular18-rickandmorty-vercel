@@ -1,10 +1,15 @@
 
 
-
   {
     "version": 2,
     "buildCommand": "npm run build",
     "installCommand": "npm install",
+    "builds": [
+        {
+          "src": "dist/angular18-rickandmorty-2/server/server.mjs",
+          "use": "@vercel/node"
+        }
+      ],
     "public": true,
     "name": "ssr-angular",
     "rewrites": [{
