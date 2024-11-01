@@ -17,7 +17,7 @@
           "Access-Control-Allow-Headers": "Content-Type,Authorization,X-Requested-With,Accept-Language",
           "Access-Control-Allow-Credentials": "true"
         },
-        "dest": "src/main.ts",
+        "dest": "dist/angular18-rickandmorty-2/server/server.mjs",
         "methods": ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"]
       }
     ]
