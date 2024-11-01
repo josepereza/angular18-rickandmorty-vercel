@@ -15,7 +15,7 @@
     ],
     "functions": {
       "api/server.mjs": {
-        "includeFiles": "dist/angular18-rickandmorty-2/server/**"
+        "includeFiles": "dist/angular18-rickandmorty-2/browser/**"
       }
     }
   }
