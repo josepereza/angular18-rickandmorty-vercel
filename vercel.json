@@ -4,7 +4,7 @@
     "version": 2,
     "builds": [
     {
-      "src": "dist/angular18-rickandmorty-2/server/main.server.mjs",
+      "src": "dist/angular18-rickandmorty-2/server/server.mjs",
       "use": "@vercel/node"
     }
 ],
