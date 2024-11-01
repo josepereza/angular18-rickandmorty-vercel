@@ -5,8 +5,7 @@
     "builds": [
     {
       "src": "dist/angular18-rickandmorty-2/server/main.server.mjs",
-      "use": "@vercel/node",
-      "config": { "includeFiles": ["*"] }
+      "use": "@vercel/node"
     }
 ],
    "routes": [
