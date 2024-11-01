@@ -14,7 +14,6 @@
    
     "public": true,
     "name": "ssr-angular",
-    "devCommand": "node dist/angular18-rickandmorty-2/server/server.mjs",
     "rewrites": [{
         "source": "/(.*)",
         "destination": "/api"
