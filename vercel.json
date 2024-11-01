@@ -6,7 +6,11 @@
     {
       "src": "dist/angular18-rickandmorty-2/server/server.mjs",
       "use": "@vercel/node"
-    }
+    },
+    {
+      "src": "package.json",
+      "use": "vercel-sapper"
+  }
 ],
    "routes": [
       { "src": "/(.*)", "dest": "dist/angular18-rickandmorty-2/server/server.mjs" }
