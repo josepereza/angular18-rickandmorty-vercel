@@ -7,18 +7,6 @@
         "src": "dist/angular18-rickandmorty-2/server/server.mjs",
         "use": "@vercel/node"
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "headers": {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
-          "Access-Control-Allow-Headers": "Content-Type,Authorization,X-Requested-With,Accept-Language",
-          "Access-Control-Allow-Credentials": "true"
-        },
-        "dest": "dist/angular18-rickandmorty-2/server/server.mjs",
-        "methods": ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"]
-      }
     ]
+   
   }
